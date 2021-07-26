@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display-swap'); 
+
+/* base styles */
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: black;
+    text-decoration: none;
+}
+
+.black-look{
+  height: 520px;
+  background-color: black;
+  border-radius: 50px;
+  margin-top: 3px;
+  margin-bottom: 50px;
+}
+/* for the welcome and guide message in homescreen */
+.intro p{
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 60px;
+  font-size: 40px;
+}
+
+#say{
+  font-size: 18px;
+  padding-bottom: 2px;
+}
+
+/* navbar */
+.navbar p{
+  color: #f1356d;
+  font-size: 20px;
+  font-weight: 510;
+}
+
+.navbar img{
+  padding-right: 5px;
+}
+
+/* content */
+.content{
+  max-width: 1350px;
+  margin: auto;
+}
+
+
+/* AboutUs */
+
+.about-us p{
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.aboutus-info{
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+  padding: 10px;
+  padding-bottom: 70px;
+  background-color: rgb(248, 234, 234);
+  border-radius: 40px;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.aboutus-info img{
+  margin-top: 20px;
+}
+
+.aboutus-info h1{
+  margin-top: 10px;
+}
+
+#michael-name{
+  font-size: 30px;
+  font-weight: 600;
+}
+#holu-name{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#creator-credit-level{
+  font-size: 25px;
+  font-weight: 500
+}
+
+.aboutus-info h1:hover{
+  font-size: 35px;
+  transition: all 0.2s linear;
+}
+
+#holu-name:hover{
+  font-size: 27px;
+  transition: all 0.2s linear;
+}
+/* AboutUs */
+
+
+/* ContactUs */
+
+.contact-us-info{
+  padding: 10px;
+  background-color: rgb(233, 211, 211);
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+  padding-bottom: 650px;
+  border-radius: 50px;
+  height: 2px;
+}
+
+.contact-us-info p{
+  margin-top: 10px;
+}
+.email-phone{
+  margin-top: 50px;
+}
+
+/* Contact us names */
+#contact-us-names{
+  font-size: 30px;
+  font-weight: 500;
+}
+/* ContactUs */
+
+/* next-previous-button */
+.next-button{
+  margin-top: 20px;
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px 15px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.1s linear;
+}
+
+.next-button:hover{
+  background: black;
+  color: #f1356d;
+}
+
+.previous-button{
+  margin-top: 20px;
+  margin-right: 5px;
+  background: white;
+  color: black;
+  border: 1px solid #f1356d;
+  padding: 8px 11px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.1s linear;
+}
+
+.previous-button:hover{
+  background: black;
+  color: #f1356d;
+}
+
+.next-previous-button{
+  text-align: center;
+}
+/* next-previous-button */
+
+/* Requirements */
+.requirements p{
+  margin-top: 80px;
+  background-color: pink;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  font-weight: 500;
+}
+.requirements p:hover{
+  background-color: white;
+  border: 1px solid pink;
+  transition: all 1s linear;
+}
+
+.requirements-list{
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* Requirements */
+
+
+/* step header/previews list */
+#steps-info-header{
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 80px;
+}
+#step-header{
+  font-size: 37px;
+  font-weight: 500;
+}
+
+.step-preview{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.step-preview p{
+  padding: 10px 16px;
+  margin: 30px 60px;
+  border-bottom: 2px solid #f1356d;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  color: #f1356d;
+  font-size: 25px;
+  font-weight: 450;
+}
+
+.step-preview p:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  border-radius: 40px;
+  background-color: rgb(0, 0, 0);
+  border-color: #f1356d;
+  transition: all 0.2s linear;
+  color: white;
+}
+
+/* step info */
+.steps-info{
+  margin-top: 30px;
+  text-align: left;
+}
+
+.steps-info ul{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+/* step info */
+
+
+/* iframe */
+Iframe{
+  border-radius: 30px;
+  border-style: none;
+  border: 1px solid rgb(209, 209, 209);
+  margin: 0 auto;
+}
+
+#map-label{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.up-button{
+  background-color: white;
+  border: 1px solid #f1356d;
+  border-radius: 120px;
+  height: 50px;
+  cursor: pointer;
+}
+.up-button:hover{
+  background-color: #f1356d;
+  transition: all 0.1s linear;
+}
+
+/* not found */
+.not-found{
+  margin-top: 80px;
+}
+.not-found p{
+  font-size: 30px;
+}
+#not-found-link{
+  margin-top: 80px;
+  color: red;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.not-found h2{
+  color: red;
+  font-size: 90px;
+}
+
